@@ -1,0 +1,4 @@
+git switch --->>> branch arasında geçmeni sağlar.
+git branch dizi-oluştur --->>> dizi oluşturur.
+git commit -m "" --->>>kontrol noktası oluşturur.
+git merge feature --->>> masterı feature branchı ile birleştirir.
