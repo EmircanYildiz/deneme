@@ -2,3 +2,8 @@ git switch --->>> branch arasında geçmeni sağlar.
 git branch dizi-oluştur --->>> dizi oluşturur.
 git commit -m "" --->>>kontrol noktası oluşturur.
 git merge feature --->>> masterı feature branchı ile birleştirir.
+git stash --->>> olduğun branchdan ani dönmen gerekirse stash kullanarak saklıyorsun ve değişiklik yapmamış gibi geri master brancha dönüyorsun.
+git stash pop --->>> sakladığın dosyayı geri getirmek için o branchta kullanılır.
+git stash list --->>> güncel sakladıklarını liste halinde verir.
+git stash apply xxxx --->>> listeden istediğini eklemek için
+git stash clear --->>> bütün stashleri siler.
