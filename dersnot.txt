@@ -7,3 +7,10 @@ git stash pop --->>> sakladığın dosyayı geri getirmek için o branchta kulla
 git stash list --->>> güncel sakladıklarını liste halinde verir.
 git stash apply xxxx --->>> listeden istediğini eklemek için
 git stash clear --->>> bütün stashleri siler.
+git checkout xxx --->>> git logdan değer alınıp yapıştırılırsa geri dönülür.
+git revert xxx --->>> o committeki yapılan değişiklikleri geri alır.
+git reset --->>> kontrol noktalarını siler.Yapılan değişiklikler kalır.
+git reset --Hard --->>> kontrol noktaları ve değişiklikleri siler.
+git fetch origin xxx --->>> dosyaları getirir ve karşılaştırma yapılır.
+git pull --->>>direkt getirir ve değiştirir.
+git push origin xxx --->>> dosyaları githuba yükler.
